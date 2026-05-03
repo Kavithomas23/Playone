@@ -1,0 +1,228 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page-feature;validate-the-title-of-the-page1",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validate the title of the page1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 442263899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the application",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5004182900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\kavit\\Desktop\\Project class\\Cucumber_April_Complete\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter the username \"Kavitha\"",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter the password \"Sarah\"",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1930584499,
+              "error_message": "TypeError: this.attach is not a function\n    at CustomWorld.<anonymous> (C:\\Users\\kavit\\Desktop\\Project class\\Cucumber_April_Complete\\support\\hooks.js:26:20)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-feature;validate-the-title-of-the-page2",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validate the title of the page2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 530787000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the application",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2233857999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Enter the username \"Kavitha1\"",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79287900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Enter the password \"Sarah1\"",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27587799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 521309199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-feature;validate-the-title-of-the-page3",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validate the title of the page3",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 470689800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the application",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4173532600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Enter the username \"Kavitha2\"",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64948099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Enter the password \"Sarah2\"",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24039300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1321116900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login page feature",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
